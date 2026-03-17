@@ -1,1 +1,188 @@
+{
+  "common": {
+    "confirm": "确定",
+    "cancel": "取消",
+    "save": "保存",
+    "close": "关闭",
+    "delete": "删除",
+    "success": "成功",
+    "error": "错误",
+    "loading": "加载中...",
+    "processing": "处理中...",
+    "saved": "已保存"
+  },
 
+  "nav": {
+    "add_files": "Folders/Files",
+    "bitsound_workspace": "BitSound Pro"
+  },
+
+  "filter": {
+    "title": "检索选项",
+    "ai_preference": "AI 听觉偏好",
+    "peak_focus": "孤立峰值",
+    "balance_focus": "智能均衡",
+    "consistent_focus": "持续一致",
+    "advanced_tuning_desc": "此高级调校仅对 <b>>10秒</b> 且触发了【双核DNA】分析的长音频素材生效。",
+    "physical_format": "物理格式过滤",
+    "channel_limit": "声道限制",
+    "ch_all": "不限",
+    "ch_stereo": "仅立体声 (Stereo)",
+    "ch_mono": "仅单声道 (Mono)"
+  },
+
+  "sidebar": {
+    "tab_tree": "Tree",
+    "tab_tags": "Semantics (Tags)",
+    "smart_collections": "Smart Collections",
+    "all_assets": "ALL",
+    "favorites": "我的收藏",
+    "offline_files": "离线/丢失",
+    "no_ai": "缺失 AI 基因",
+    "duplicates": "重复文件",
+    "local_folders": "Local Folders",
+    "current_search_conditions": "当前检索条件:",
+    "btn_clear_all": "清空全部",
+    "local_reference": "本地参考",
+    "local_reference_tooltip": "开启后：结合文件名与路径进行综合加分挽回 (推荐)",
+    "btn_start_search": "开始语义搜索"
+  },
+
+  "search": {
+    "placeholder_normal": "描述你想要的声音...",
+    "placeholder_loading": "🧠 正在同步最新的双核大脑，请稍候...",
+    "placeholder_tags": "请点选下方标签...",
+    "tooltip_cancel_tag": "点击取消选择",
+    "loading_title": "AI 神经网络检索中...",
+    "loading_desc": "正在比对 512 维声音特征"
+  },
+
+  "list": {
+    "header_name": "音频名称",
+    "header_bitrate": "位深/码率",
+    "header_sample": "采样率",
+    "header_duration": "时长",
+    "header_bpm_key": "BPM / 调性",
+    "empty_state": "[ 暂无匹配音频 ]",
+    "empty_error": "加载数据失败，请检查后端是否启动。",
+    "ai_top_badge": "AI 已为您提取 Top {{count}} 最优匹配",
+    "duplicate_badge": "已聚合所有重复文件，请结合波形上方的文件路径（可鼠标点击）在操作系统文件管理器进行整理。",
+    "status_offline": "[ 物理文件已离线或被改名 ]",
+    "tooltip_fav_add": "加入收藏",
+    "tooltip_fav_remove": "取消收藏",
+    "tooltip_dup_group": "具有相同 DSP 物理基因的克隆文件组",
+    "badge_group": "组 {{id}}"
+  },
+
+  "player": {
+    "inspector_title": "波形检视器",
+    "status_unselected": "未选择音频",
+    "status_idle": "系统就绪 | 等待导入任务",
+    "status_loading": "加载中:",
+    "status_offline": "❌ 文件已丢失:",
+    "no_signal": "[ 暂无信号输入 ]",
+    "btn_return_start": "返回开头",
+    "btn_replay": "重新播放",
+    "inspector_standby": "[ 属性检视器待命 ]",
+    "btn_detail": "详情",
+    "toggle_skip_silence": "自动寻响",
+    "tooltip_skip_silence": "开启后，播放音频时将自动跳过开头的静音片段",
+    "toggle_loop": "Loop",
+    "toggle_autoplay": "Auto-Play",
+    "tooltip_theme": "切换明暗主题",
+    "tooltip_refresh": "重新扫描本地物理文件状态",
+    "time_display_default": "00:00.00"
+  },
+
+  "dashboard": {
+    "modal_title": "DAM 处理车间",
+    "drag_drop_desc": "拖拽顶级文件夹或文件至此",
+    "cart_empty": "购物车空空如也...",
+    "cart_waiting": "等待拖拽导入 (单次队列上限: {{max}})",
+    "cart_limit_warning": "⚠️ 达到单次队列上限 ({{max}})，部分文件已被忽略！",
+    "cart_success": "✅ 购物车已收录 {{count}} 个顶级路径！",
+    "cart_locked": "队列锁定 {{count}}/{{max}}，可点击继续分析...",
+    "btn_proceed": "选完了，继续分析",
+    
+    "monitor_title": "分析监视中心",
+    "monitor_ready": "准备就绪",
+    "locked_sources": "已锁定输入源",
+    "total_progress_desc": "总任务进度 [随时可以暂停和终止，分析成功的文件在下次分析时会忽略]",
+    "completed": "已完成:",
+    "total": "共计:",
+    "processing_now": "正在处理：",
+    "realtime_log": "实时执行日志",
+
+    "status_idle": "处理车间已开启，等待拖拽...",
+    "status_running": "正在分析...",
+    "status_paused": "⏸️ 分析已暂停...",
+    "status_stopped": "🛑 分析已彻底终止",
+    "status_done": "任务圆满完成",
+    "mini_status_running": "后台分析中",
+    "mini_status_paused": "后台已暂停",
+    "mini_status_stopped": "任务已终止",
+    "mini_status_done": "分析完成",
+    
+    "btn_pause": "暂停",
+    "btn_resume": "继续",
+    "btn_stop": "终止",
+    "btn_stopped": "已终止",
+    "btn_background": "后台运行",
+    "btn_close_panel": "关闭面板",
+    "btn_close": "关 闭",
+    "btn_finish": "完 成",
+    "confirm_stop": "⚠️ 确定? ({{seconds}}s)"
+  },
+
+  "editor": {
+    "modal_title": "上帝模式",
+    "scanning": "扫描文件中...",
+    "parsing": "正在解析表格...",
+    "editing_reminder": "编辑中... 别忘了及时保存数据",
+    "no_files": "未找到任何 tags_*.json 文件！",
+    "backend_offline": "失联！请检查 Python 后端是否启动。",
+    "load_failed": "读取 {{file}} 失败，确保它是一个正确的 JSON。",
+    "btn_add_row": "新增标签",
+    "btn_add_bottom": "在该组末尾添加新标签",
+    "btn_save_only": "仅保存",
+    "btn_save_apply": "写入并退出",
+    "placeholder_display": "显示名",
+    "placeholder_value": "Value",
+    "tooltip_move_up": "上移",
+    "tooltip_move_down": "下移"
+  },
+
+  "confirm_modal": {
+    "title_clear": "确认清除",
+    "btn_cancel": "取消",
+    "btn_confirm_clear": "确定清除"
+  },
+
+  "messages": {
+    "tooltip_del_folder": "一键清除该目录下所有离线记录",
+    "tooltip_del_file": "清除数据库中的离线记录",
+    "confirm_del_file": "确定要从数据库中清除此条 [ 离线记录 ] 吗？",
+    "confirm_del_folder": "确定要从数据库中清除该文件夹下的所有 [ 离线记录 ] 吗？\n\n(仅清理分析和列表信息，与物理文件无关！)",
+    "clear_success": "成功清理了 {{count}} 条死数据。",
+    "network_error": "信号塔失联，请检查后端是否启动。",
+    "file_not_found": "点歌失败，硬盘上找不到这个文件。",
+    "select_target_file": "未选中目标文件！",
+    "save_failed": "保存失败: {{message}}",
+    "request_timeout": "请求超时，请检查后端！"
+  },
+
+  "backend_logs": {
+    "search_empty": "搜索词为空",
+    "format_rejected": "格式不支持，已拒绝: {{files}}",
+    "no_supported_audio": "未发现支持的音频文件。",
+    "scan_finished": "扫描完毕，发现 {{count}} 个音频文件，准备分析...",
+    "fast_pass": "[已在库中 | 极速秒过]",
+    "dual_core": "[双核DNA]",
+    "single_core": "[单核DNA]",
+    "intercepted": "❌ 拦截: {{message}}",
+    "stream_disconnected": "系统: 接收流已断开。",
+    "comm_failed": "通信失败: {{message}}",
+    "scan_terminated": "扫描已被强行终止！",
+    "all_analyzed": "全部分析完毕！"
+  }
+}
