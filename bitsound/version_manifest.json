@@ -1,1 +1,14 @@
-
+{
+  "zh": {
+    "version": "0.0.1",
+    "tags_url": "https://raw.githubusercontent.com/woo2000/api/refs/heads/main/bitsound/tags/tags_zh.json",
+    "ui_url": "https://raw.githubusercontent.com/woo2000/api/refs/heads/main/bitsound/ui/zh.json",
+    "name": "简体中文"
+  },
+  "en": {
+    "version": "0.0.1",
+    "tags_url": "https://raw.githubusercontent.com/woo2000/api/refs/heads/main/bitsound/tags/tags_en.json",
+    "ui_url": "https://raw.githubusercontent.com/woo2000/api/refs/heads/main/bitsound/ui/en.json",
+    "name": "English"
+  }
+}
